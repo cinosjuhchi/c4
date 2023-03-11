@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: visible;
+}
+
+.button {
+    transform: translateY(-250%);
+    width: 1495px; 
+    height: 80px;
+}
+
+.banner {
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+}
+
+.pp {
+    margin: 0 50%;
+    border: 8px solid white;
+    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.3);
+    transform: translateY(-45%);
+}
+
+.pp-text{
+    transform: translateX(15%) translateY(10%);
+}
+
+.pp-text h3 {
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.pp-text p {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.bi {
+    margin-right: 8px;
+}
+
+.bg-best {
+    background-color: #F7F7F7;
+    height: auto;
+}
+
+
+#sidebar{
+    z-index: 9999;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    transition: all .3s ease-in-out;
+    left: -500px;
+    width: 375px;
+    height: 100vh;
+    background: #ffffff;
+    border-right: 1px solid #616571;
+}
+
+
+.account{
+    width: 325px;
+    height: 98px;
+}
+.garis{
+    width: 325px;
+    height: 1px;
+    background: black;
+    margin-top: 20px;
+    margin-left: 25px;
+
+}
+
+.isi-acc{
+    background: #ffffff;
+    width: 325px;
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-top: 21px;
+    height: 78px;
+}
+
+.isi-img{
+    margin-left: 15px;
+}
+
+.title-acc{
+    font-family: 'Roboto', sans-serif;
+font-size: 20px;
+font-weight: 400;
+color: #000000;
+
+}
+
+
+.mark-1{
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+font-size: 40px;
+font-weight: 700;
+letter-spacing: 0em;
+text-align: left;
+margin-bottom: 25px;
+}
+.mark-2{
+    font-family: 'Roboto', sans-serif;
+font-size: 20px;
+margin-top: 15px;
+font-weight: 500;
+}
+
+.mark-3{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+
+.kotak-1{
+    height: 220px;
+    width: 315px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background: linear-gradient(179.47deg, rgba(0, 0, 0, 0) 61.64%, rgba(0, 0, 0, 0.2) 99.54%),
+linear-gradient(0deg, #A4A4A4, #A4A4A4);
+}
+
+.kotak-2{
+    height: 220px;
+    width: 315px;
+    margin-top: 20px;
+    border-radius: 10px;
+
+}
+
+.mark-5{
+    margin-left: 15px;
+}
+
+
+.prf{
+    margin-top: 10px;
+}
+
+.title-3{
+    font-family: 'Roboto' sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+
+.email{
+    font-family: 'Roboto', sans-serif;
+font-size: 16px;
+font-weight: 400;
+color: #A4A4A4;
+
+}
+
+#sidebar.open{
+    left: 0;
+}
+
+
+
+#sidebar ul li{
+    padding-left: 10px;
+}
+
+#sidebar ul li:nth-child(1){
+    margin-top: 40px;
+    width: 325px;
+    height: 50px;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    background: #ffffff;
+}
+
+#sidebar ul li:nth-child(2){
+    display: flex;
+    align-items: center;
+    width: 325px;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background: #ffffff;
+}
+#sidebar ul li:nth-child(3){
+    display: flex;
+    background: #ffffff;
+    align-items: center;
+    margin-top: 10px;
+    width: 325px;
+    height: 50px;
+    border-radius: 10px;
+}
+#sidebar ul li:nth-child(4){
+    display: flex;
+    background: #ffffff;
+    align-items: center;
+    bottom: 0;
+    width: 325px;
+    height: 50px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+
+#btn{
+    transform: rotate(180deg);
+    margin-top: 15px;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}   
+
+#btn.open{
+    transform: rotate(90deg);
+}
+
+#sidebar ul li a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    transition: all .4s ease-in-out;
+    font-style: bold;
+    font-weight: 500;
+    color: #000000;
+}
+
+#sidebar ul li:hover a{
+    padding-left: 20px;
+}
+
+
+
+
+@media screen and (max-width : 1440px){
+    .pp{
+        margin: 0 auto;
+        display: block;
+    }
+
+    .pp-text{
+        transform: none;
+        margin: 0 10px;
+    }
+
+    .button {
+        transform: translateY(-250%);
+        width: 370px; 
+        height: 80px;
+    }
+
+    .button img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .button .btn-2 {
+        margin-top: 50px;
+    }
+}

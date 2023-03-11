@@ -1,0 +1,107 @@
+#content-1{
+    background-image: url(/img/asetaca/Rectangle\ 78.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+}
+
+img{
+    width: 335px;
+height: 81px;
+margin: auto;
+}
+
+#content-2{
+    margin-top: 100px;
+}
+
+.form{
+    margin-right: 80px;
+    margin-left: 80px;
+}
+
+h3{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #616571;
+}
+
+a{
+    color: #0075FF;
+    text-decoration: none;
+}
+
+.form-label{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+}
+
+.form-control{
+    width: 588px;
+    height: 50px;
+    background: #D9D9D9;
+    border-radius: 8px;
+}
+
+button{
+    width: 588px;
+    height: 50px;
+    background: #3B8BCB;
+    border-radius: 8px;
+}
+
+.service{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 161%;
+    margin-top: 40px;
+    align-items: center;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.biru{
+    color: #3B8BCB;
+}
+
+@media screen and (max-width: 576px){
+    #content-1{
+        display: none;
+    }
+
+    .form{
+        margin: 0;
+    }
+
+    .form-control{
+        width: 100%;
+    }
+
+    button{
+        width: 100%;
+    }
+    
+    .form-label{
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 1440px){
+    .form-control{
+        width: 100%;
+    }
+
+    button{
+        width: 100%;
+    }
+}

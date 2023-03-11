@@ -1,0 +1,90 @@
+.container{
+    margin-top: 30px;
+}
+
+h1{
+font-weight: 600;
+font-size: 30px;
+line-height: 27px;
+color: #000000;
+}
+
+
+
+#btn-1{
+    background: #003974;
+    border-radius: 60px;
+}
+#btn-2{
+    background: black;
+    border-radius: 60px;
+}
+
+#container{
+    margin-top: 60px;
+}
+
+.form-1{
+    width: 590px;
+    height: 600px;
+    background: #FFFFFF;
+    border: 1px dashed #000000;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+
+
+.img-upload input[type = "file"]{
+    cursor: pointer;
+    transform: scale(1);
+    opacity: 0;
+    
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+}
+
+p{
+    text-align: center;
+    margin-top: 10px;
+}
+
+#title{
+    height: 80px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 15px;
+}
+
+#desc{
+    height: 410px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 15px;
+
+}
+
+@media screen and (max-width: 1440px) {
+    #button{
+        margin-top: 20px;
+    }
+
+    #btn-1:hover{
+        transform: scale(105%);
+        transition: 0.3s;
+    }
+    #btn-2:hover{
+        transform: scale(105%);
+        transition: 0.3s;
+    }
+
+    .form-1{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
